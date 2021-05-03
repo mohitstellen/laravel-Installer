@@ -1,7 +1,7 @@
 {
     "name": "sonali/laravel-installer",
     "description": "Laravel web installer",
-    "license": "Vectorcoder",
+    "license": "MIT",
     "authors": [
         {
             "name": "Sonali",
