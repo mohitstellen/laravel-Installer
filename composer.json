@@ -1,0 +1,34 @@
+{
+    "name": "sonali/laravel-installer",
+    "description": "Laravel web installer",
+    "license": "Stellen",
+    "authors": [
+        {
+            "name": "Sonali",
+            "email": "sona.94bhika@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SonaliBhika\\LaravelInstaller\\": "src/"
+        },
+        "files": [
+            "src/Helpers/functions.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SonaliBhika\\LaravelInstaller\\Providers\\LaravelInstallerServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability" : "stable"
+
+}
